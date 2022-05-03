@@ -22,6 +22,28 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.container {
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: large;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -33,6 +55,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
